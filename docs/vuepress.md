@@ -1,3 +1,9 @@
+---
+title: VuePress
+sideBarDepth: 3
+editLink: false
+---
+
 # VuePress使用文档
 
 ### 创建项目  
