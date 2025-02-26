@@ -95,6 +95,36 @@ Markdown 文件可以包含一个 YAML Frontmatter 。Frontmatter 必须在 Mark
 可以把静态资源放在public目录下，他们最终会被复制到最终生成的网站目录下，默认的public目录是 .vuepress/public  
 
 
+### 内置组件   
+badge   
+用法：`<Badge text="text" type="type" vertical="vertical" />`  
+参数：text 文本内容，type 类型，vertical 垂直方向  
+type: primary, info, success, warning, danger, tip, default
+vertical: top, bottom
+```md
+<Badge text="primary" type="primary" vertical="top" />
+<Badge text="info" type="info" vertical="top" />
+<Badge text="success" type="success" vertical="top" />
+<Badge text="warning" type="warning" vertical="top" />
+<Badge text="danger" type="danger" vertical="top" />
+<Badge text="tip" type="tip" vertical="top" />  
+```
+
+
+### MarkDown容器   
+
+#### 提示容器   
+用法：   
+```md
+::: tip 自定义标题(此处的自定义标题可不填，不填会有默认的标题)
+这是一个提示
+:::
+```
+对应效果如下：
+::: tip
+这是一个危险提示   
+:::
+
 
 
 
