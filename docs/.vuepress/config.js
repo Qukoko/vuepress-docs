@@ -14,6 +14,7 @@ export default defineUserConfig({
     navbar: ['/', '/vuepress'],
     repo: 'https://github.com/Qukoko/vuepress-docs.git'
   }),
+  port: 1234,
 
   bundler: webpackBundler(),
 })
